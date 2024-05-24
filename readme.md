@@ -35,6 +35,6 @@ Ce programme est l'implémentation d'un exercice détaillé dans ce [fichier](./
 - **[./exercice_instructions/Exercice Technique LaTondeuse.pdf](./exercice_instructions/Exercice%20Technique%20-%20LaTondeuse.pdf)** : This is the file where there are the instructions for the exercise.
 
 #### Nb :
-- Ce code a été créé sur une version de python 3.12.0. De ce fait à l'intérieur des scripts on retrouve des syntaxes tels que le typage des arguments et des variable. Assurez-vous d'avoir une version de python qui supporte les types pour exécuter facile le script main.py sans avoir d'éventuelles erreurs.
+- Ce code a été créé sur une version de python 3.12.0. De ce fait à l'intérieur des scripts on retrouve des syntaxes tels que le typage des arguments et des variables. Assurez-vous d'avoir une version de python qui supporte les types pour exécuter facilement le script main.py sans avoir d'éventuelles erreurs.
 - Je documente généralement mon code en anglais pour permettre au maximun de personnes de pouvoir comprendre la logique. Merci!
 
