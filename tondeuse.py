@@ -13,6 +13,14 @@ class Tondeuse :
         # add the x,y coordinates to the turf
         gazon.add_position_in_gazon(self.get_xy())
     
+    def execute_instructions(self,instructions : list[str],gazon: Gazon):
+        """ Execute all the instruction and then print out coordinates of the lawnmower"""
+        for instruction in instructions :
+            
+           self.control(instruction,gazon)
+        # print the coordinates 
+        self.get_coords()
+        pass
     
     def control(self,command : str,gazon : Gazon):
         """ Execute the instruction to move or to turn a lawnmower """

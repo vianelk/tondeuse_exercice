@@ -21,14 +21,10 @@ def main():
         
     # move all the lawnmovers
     for i in range(len(instructions_list)):
-                
-        for instruction in instructions_list[i] :
+                  
+        tondeuses[i].execute_instructions(instructions_list[i],my_gazon)
             
-            tondeuses[i].control(instruction,my_gazon)
-            
-        # show the coordinates of the lawnmovers after transformation
-        tondeuses[i].get_coords()
-           
+        
         
     
 if __name__ == "__main__" :
