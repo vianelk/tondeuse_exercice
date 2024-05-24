@@ -17,25 +17,19 @@ def main():
     for coords in tondeuses_coords :
         x, y, orientation = coords
         
-        tondeuses.append(Tondeuse(int(x),int(y),orientation))
+        tondeuses.append(Tondeuse(int(x),int(y),orientation,my_gazon))
         
     # move all the lawnmovers
     for i in range(len(instructions_list)):
-        
-        print("".join(instructions_list[i]))
-        
+                
         for instruction in instructions_list[i] :
             
             tondeuses[i].control(instruction,my_gazon)
+            
+        # show the coordinates of the lawnmovers after transformation
+        tondeuses[i].get_coords()
+           
         
-    tondeuses[0].get_coords()
-    tondeuses[1].get_coords()
-    
-        
-    
-    
-    pass
-    
     
 if __name__ == "__main__" :
     main()
