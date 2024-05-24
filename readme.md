@@ -1,4 +1,4 @@
-AUTHOR : VIANEL KONG
+### AUTHOR : VIANEL KONG
 
 # EXERCICE TECHNIQUE - LA TONDEUSE
 
@@ -6,13 +6,13 @@ AUTHOR : VIANEL KONG
 
 ### FR
 
-- **main.py** : C'est le script python principale à exécuter pour lancer le programme
+- **main.py** : C'est le script python principal à exécuter pour lancer le programme
 
-- **commandsParser.py** : C'est le script python qui va recuperer les commandes des tondeuses enregistrées dans le fichier de texte  ./data/commands.txt
+- **commandsParser.py** : C'est le script python qui va récupérer les commandes des tondeuses enregistrées dans le fichier de texte  ./data/commands.txt
 
-- **gazon.py** : C'est le script py où il y a l'objet Gazon qui est un représentation objet du gazon.
+- **gazon.py** : C'est le script py où il y a l'objet Gazon qui est une représentation objet du gazon.
 
-- **tondeuse.py** : C'est le script python où il ya l'objet Tondeuse qui est une représentation objet de la tondeuse.
+- **tondeuse.py** : C'est le script python où il y a l'objet Tondeuse qui est une représentation objet de la tondeuse.
 
 - **./data/commands.txt** : C'est le fichier où toutes les commandes des tondeuses sont enregistrées.
 
@@ -32,5 +32,7 @@ AUTHOR : VIANEL KONG
 
 - **./exercice_instructions/Exercice Technique LaTondeuse.pdf** : This is the file where there are the instructions for the exercise.
 
-#### Nb : Je documente généralement mon code en anglais pour permettre au maximun de personne de pouvoir comprendre la logique. Merci!
+#### Nb :
+- Ce code a été créé sur une version de python 3.12.0. De ce fait à l'intérieur des scripts on retrouve des syntaxes tels que le typage des arguments et des variable. Assurez-vous d'avoir une version de python qui supporte les types pour exécuter facile le script main.py sans avoir d'éventuelles erreurs.
+- Je documente généralement mon code en anglais pour permettre au maximun de personnes de pouvoir comprendre la logique. Merci!
 
