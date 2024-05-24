@@ -15,7 +15,7 @@ class Gazon :
                return False
            
         # if the coordinates are corret but occupied,
-        # it will be returned false because 2 lawnmovers can't have the same postion
+        # it will be returned false because 2 lawnmowers can't have the same postion
         return True and not self.is_position_occupated(coords) 
     
     def is_position_occupated(self,coords : list[int]) -> bool:

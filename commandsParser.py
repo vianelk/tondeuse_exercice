@@ -6,7 +6,7 @@ class CommandParser :
     """
     def __init__(self,file_path : str) -> None:
         """file_path is the path of the commands file """
-        # file where are the lawnmovers commands instruction
+        # file where are the lawnmowers commands instruction
         file = open(file=file_path,mode= "r")
         line = file.readline()
         self.gazon_dimension = []
@@ -20,11 +20,11 @@ class CommandParser :
             # if it is the dimension of the turf << gazon >>
             if(counter == 0):
                 self.gazon_dimension = [str(x) for x in line.split(" ") ]
-            # if it is the coordinates of lawnmovers
+            # if it is the coordinates of lawnmowers
             elif(counter != 0 and counter%2 != 0):
                self.coords_list.append(line.split(" "))
             
-            # if it is the instructions of lawnmovers
+            # if it is the instructions of lawnmowers
             elif(counter != 0 and counter%2 == 0):
                 
                 self.commands_list.append([ x for x in line])

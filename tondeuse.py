@@ -15,7 +15,7 @@ class Tondeuse :
     
     
     def control(self,command : str,gazon : Gazon):
-        """ Execute the instruction to move or to turn a lawnmover """
+        """ Execute the instruction to move or to turn a lawnmower """
         if(command in ["D","G"]):
             self.turn(command)
         elif(command == "A"):
@@ -49,7 +49,7 @@ class Tondeuse :
         else :
             print("l'opération ne peut etre effectuer")
     
-    # turn a lawnmover when the command is "D" or "G"
+    # turn a lawnmower when the command is "D" or "G"
     def turn(self,direction : str):
         
        if( direction in ["D","G"]):
@@ -86,7 +86,7 @@ class Tondeuse :
         return [self.x,self.y,self.orientation]
     
     def get_xy(self) -> list[int]:
-        """ get the x,y postion of lawnmover"""
+        """ get the x,y postion of lawnmower"""
         return [self.x,self.y]
     
     def set_orientation(self,orientation):
